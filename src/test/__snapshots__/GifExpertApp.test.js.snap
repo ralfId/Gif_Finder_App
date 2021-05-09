@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en GifExpertApp.js Debe hacer match con el snapshop de <GifExpertApp/> 1`] = `
+<Fragment>
+  <h2>
+    Gif Expert App
+  </h2>
+  <AddCategory
+    setCategory={[Function]}
+  />
+  <hr />
+  <ol />
+</Fragment>
+`;
+
+exports[`Pruebas en GifExpertApp.js Debe verificar si <GridCategory/> existe n veces 1`] = `
+<Fragment>
+  <h2>
+    Gif Expert App
+  </h2>
+  <AddCategory
+    setCategory={[Function]}
+  />
+  <hr />
+  <ol>
+    <GridCategory
+      category="One piece"
+      key="One piece"
+    />
+    <GridCategory
+      category="xHx"
+      key="xHx"
+    />
+  </ol>
+</Fragment>
+`;

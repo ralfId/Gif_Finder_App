@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en GridCategory.js Debe de mostrar items cuando se cargan imagenes con useFetchGifs.js 1`] = `
+<Fragment>
+  <h3>
+    one piece
+  </h3>
+  <div
+    className="card-container animate__zoomIn"
+  >
+    <GridCategoryItem
+      id={1}
+      key="1"
+      title="Lorem ipsum"
+      url="https://imagen.gif.com"
+    />
+  </div>
+</Fragment>
+`;
+
+exports[`Pruebas en GridCategory.js Debe hacer match con el snapshop  1`] = `
+<Fragment>
+  <h3>
+    one piece
+  </h3>
+  <p>
+    Loading...
+  </p>
+  <div
+    className="card-container animate__zoomIn"
+  />
+</Fragment>
+`;

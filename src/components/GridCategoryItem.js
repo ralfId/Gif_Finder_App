@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types';
 
 export const GridCategoryItem = ({ title, img }) => {
     return (
@@ -8,3 +9,8 @@ export const GridCategoryItem = ({ title, img }) => {
         </div>
     )
 }
+
+GridCategoryItem.protoTypes = {
+    title: PropTypes.string.isRequired,
+    img: PropTypes.string.isRequired
+};

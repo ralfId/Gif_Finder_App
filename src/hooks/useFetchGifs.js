@@ -19,10 +19,10 @@ export const useFetchGifs = (category) => {
                 setState({
                     data: imgs,
                     loading: false
-                })
+                });
             }
             );
-    });
+    }, [category]);
 
     
 

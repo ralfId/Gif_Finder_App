@@ -2,10 +2,10 @@ import React, {useState} from 'react';
 import { AddCategory } from './components/AddCategory';
 import { GridCategory } from './components/GridCategory';
 
-export const GifExpertApp = () => {
+export const GifExpertApp = ({defaultCategories = []}) => {
 
     //const catgList = ['one pice', 'hxh', 'Naruto']
-    const [category, setCategory] = useState([''])
+    const [category, setCategory] = useState(defaultCategories)
     
     // const handleAdd = ()=>{
     //     /* Correct ways to push an element */
@@ -30,4 +30,4 @@ export const GifExpertApp = () => {
 
         </>
     )
-}
+};

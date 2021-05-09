@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test for GridCategoryItem.js should show a correct snapshop for GridCategoryItem component 1`] = `
+<div
+  className="card animate__fadeInLeft"
+>
+  <img
+    alt="Lorem ipsum"
+    src="https://www.imagesgifs.com"
+  />
+  <p>
+    Lorem ipsum
+  </p>
+</div>
+`;
